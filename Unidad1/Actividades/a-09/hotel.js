@@ -8,7 +8,7 @@ if (isNaN(edad) || isNaN(numeroNoches)) {
     alert("Por favor ingresa un número válido");
 } else if (edad < 18) {
     alert("A tu casa a ver Pocoyo");
-} else if (TipodeHabitacion !== "Standard" || TipodeHabitacion !== "Superior") {
+} else if (TipodeHabitacion !== "Standard" && TipodeHabitacion !== "Superior") {
     alert("Tipo de habitación no válido");
 } else { if (TipodeHabitacion === "Standard") {
     let precio = 60; }
